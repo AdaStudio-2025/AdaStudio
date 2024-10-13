@@ -1,0 +1,62 @@
+AdaStudio-2025.1 based on Qt-6.8.0-everywhere  opensource (expanded with modules from Qt-5.15:  qtgamepad,  qtx11extras,qtwinextras),VTK-9.3.1,FFMPEG-7.1,OpenCV-4.10.0,Whisper-1.6.2,SDL2-2.24.0,QtAV-1.13 MDK-SDK(wang-bin)
+Qt6ada version 6.8.0 open source and qt6base.dll ,qt6ext.dll (win64),libqt6base.so,libqt6txt.so(x86-64) built with Microsoft Visual Studio 2023  x64 Windows, gcc amd64 in Linux.
+Package tested with gnat gpl 2020 ada compiler in Windows 64bit , Linux amd64 Debian 12.2
+AdaStudio-2025.1 includes next modules : qt6ada,vtkada,qt6mdkada,qt6cvada(face recognition, face detection,face identification,objects detectection,QRcode detector,BARcode detection and others ) and voice recognizer.
+Qt6Ada is built under  GNU LGPLv3 license   https://www.gnu.org/licenses/lgpl-3.0.html.
+Qt6Ada modules for Windows, Linux (Unix) are available from  
+Google drive https://drive.google.com/drive/folders/0B2QuZLoe-yiPbmNQRl83M1dTRVE?resourcekey=0-b-M35gZhynB6-LOQww33Tg&usp=sharing
+WebPage is  https://r3fowwcolhrzycn2yzlzzw-on.drv.tw/AdaStudio/adastudio.html
+Directories  tree is 
+  AdaStudio - root
+  Prebuilt -  Qt-6.8.0, VTK-9.3.1, FFMPEG-7.1,Opencv-4.10.0,Whisper-1.6.2,SDL2-2.24.0,QtAV-1.13 MDK-SDK
+    Win64     -    prebuilt for Windows x64
+      qt-6.8.0win64.tar.xz       - Qt-6.8.0
+      vtk-9.3.1win64.tar.xz      - VTK-9.3.1
+      ffmpeg-7.1win64.tar.xz     - FFMPEG-7.1
+      opencv-4.10.0win64.tar.xz  - OpenCV-4.10.0
+      sdl2-2.24.0win64.tar.xz    - SDL2-2.0.24 
+      qtav1.13win64.tar.xz       - QtAV 1.13(ffmpeg 7) 
+      Whisper-1.6.2win64.tar.xz  - Whisper 1.6.2
+    AMD64     -    prebuilt binaries for Linux/Unix Desktop amd64  
+      qt-6.8.0amd64.tar.xz       - Qt-6.8.0
+      vtk-9.3.1amd64.tar.xz      - VTK-9.3.1
+      ffmpeg-7.1.tar.xz          - FFMPEG-7.1
+      opencv-4.10.0amd64.tar.xz  - OpenCV-4.10.0
+      sdl2-2.24.0amd64.tar.xz    - SDL2-2.24.0
+      qtav1.13amd64.tar.xz       - QtAV 1.13(ffmpeg 7)
+      Whisper-1.6.2.tar.xz       - Whisper 1.6.2
+  qt6ada          - qt6ada components  
+      qt6adademos.tar.xz  - qt6ada demos
+      qt6adasrc.tar.xz    - qt6ada packages
+      qt6adawin64.tar.xz  - qt6ada win64 binaries
+      qt6adaamd64.tar.xz  - qt6ada amd64 binaries
+  mdkada    - qt6mdkada components  
+      qt-qmdk.ads  - qt6mdkada package 
+      mdkadademos.tar.bz2   - qt6mdkada demos
+      mdkadawin64.tar.bz2   - qt6mdkada win64 binaries
+      mdkadaamd64.tar.bz2   - qt6mdkada amd64 binaries
+      mdk-sdk-0.16.0.tar.xz - mdk-sdk binaries win64 amd64
+  qtavada          - qt6avada components  
+      qt6avadasrc.tar.xz    - qt6avada packages
+      qt6avadademos.tar.xz  - qt6avada demos
+      qt6avadawin64.tar.xz  - qt6avada win64 binaries
+      qt6adaamd64.tar.xz    - qt6avada amd64 binaries
+  qtopencvada        - qt6opencvada components (with seta,ndnn,dlib,yolov models support)
+      qt6opencvadademos.tar.xz  - qt6opencvada demos
+      qt6opencvadasrc.tar.xz    - qt6opencvada packages
+      qt6opencvadawin64.tar.xz  - qt6opencvada win64 binaries
+      qt6opencvadaamd64.tar.xz  - qt6opencvada amd64 binaries 
+  voicerecognizer  - qt6ada voicerecognizer components 
+      adasphinx.tar.xz  - Sphinx voice recornizer
+      qtwhisper.tar.xz  - Whisper AI Voice recognizer(experimental)
+  vtkada             - vtk9ada componenets 
+      vtkadademo.tar.xz       - vtkada demos
+      vtkadasrc.tar.xz        - vtkada packages
+      vtkadawin64.tar.xz      - vtkada win64  binaries
+      vtkadaamd64.tar.xz      - vtkada amd64 binaries
+
+The full list of released classes is in "Qt6 classes to Qt6Ada packages relation table.pdf"
+The simple manual how to build Qt6Ada application can be read in  "How to use Qt6ada.pdf"
+If you have any problems or questions, tell me know.
+Leonid(leonid.dulman@gmail.com)
+
